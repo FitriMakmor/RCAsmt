@@ -11,7 +11,7 @@ Submission for RunCloud Assessment
     - One thing I've noticed is that Composer is capable of managing dependencies (packages obtained through Packagist) in a very efficient manner — a feature which I am unfortunately unable to implement in this assessment.
 - I've decided to go for an abstract instead of an interface, since I've noticed that the Plans are designed to be in a hierarchical manner (Basic<Pro<Business). The superior plans will have all the variables and methods of the inferior ones, with several new additions (can be extended).
 
-### Upon viewing the question and reading the code.
+### Upon viewing the question and reading the code
 - The first thing I've decided to do was to explore more about Composer and autoloading.
 - Along the way I also searched up possible file/folder architecture and found out about the PSR format, I then decided to go with the PSR-4 autoloading, since using namespaces is also one of the expected procedures.
 - I've renamed the RunCloud.php file to index.php, since I plan to later test run the project using xampp.
@@ -30,4 +30,4 @@ Submission for RunCloud Assessment
 - Once all was completed, I ran the php code using xampp (which was completely unnecessary, but since I already have it installed and ready for my course assignment, I believe it was easier for me to do so)
 - I did a bit of fixing and troubleshooting before finally giving particular attention to the newlines to make sure that the source output would look nice.
 
-The rest I believe are pretty self-explanatory in the code. Hope the code is to your liking :smile:
+The rest I believe are pretty self-explanatory in the code. Hope the code is to your liking. :smile:
