@@ -1,5 +1,5 @@
-# RCAssessment
-Submission for RunCloud Assessment
+# AssessmentAns
+Submission for a company's intake assessment
 
 ## Thought Process
 
@@ -14,7 +14,7 @@ Submission for RunCloud Assessment
 ### Upon viewing the question and reading the code
 - The first thing I've decided to do was to explore more about Composer and autoloading.
 - Along the way I also searched up possible file/folder architecture and found out about the PSR format, I then decided to go with the PSR-4 autoloading, since using namespaces is also one of the expected procedures.
-- I've renamed the RunCloud.php file to index.php, since I plan to later test run the project using xampp.
+- I've renamed the original .php file to index.php, since I plan to later test run the project using xampp.
 
 ### Setting up the classes
 - Next, I re-read the code and gathered all the necessary classes required for the code to run (User, Server, BasicPlan, ProPlan, BusinessPlan).
